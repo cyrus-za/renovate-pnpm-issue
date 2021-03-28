@@ -2,7 +2,7 @@ dependencies:
   lodash: 4.17.20
 devDependencies:
   '@types/node': 14.14.28
-  pnpm: 5.17.2
+  pnpm: 5.18.9
 lockfileVersion: 5.2
 packages:
   /@types/node/14.14.28:
@@ -13,14 +13,14 @@ packages:
     dev: false
     resolution:
       integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
-  /pnpm/5.17.2:
+  /pnpm/5.18.9:
     dev: true
     engines:
       node: '>=10.16'
     hasBin: true
     resolution:
-      integrity: sha512-X0WEumozKhlYZObL1E+Nmi67f+ZMS+fbpE6vAymlazT2lx0B+Agw9iJsdd//tjAqIzxcsxxgZScx0EIPc42Ulw==
+      integrity: sha512-TYIkMI/ydQkorwVe5CGTZQj0Bn1Cd7aEMYLV91AIAwqiwt7ItrHkBnwmORS49r6vpNtjYE+4M6/6O2w1tcnbaA==
 specifiers:
   '@types/node': 14.14.28
   lodash: ^4
-  pnpm: 5.17.2
+  pnpm: 5.18.9
