@@ -1,14 +1,14 @@
 dependencies:
   lodash: 4.17.20
 devDependencies:
-  '@types/node': 14.14.28
+  '@types/node': 18.18.6
   pnpm: 5.17.2
 lockfileVersion: 5.2
 packages:
-  /@types/node/14.14.28:
+  /@types/node/18.18.6:
     dev: true
     resolution:
-      integrity: sha512-lg55ArB+ZiHHbBBttLpzD07akz0QPrZgUODNakeC09i62dnrywr9mFErHuaPlB6I7z+sEbK+IYmplahvplCj2g==
+      integrity: sha512-wf3Vz+jCmOQ2HV1YUJuCWdL64adYxumkrxtc+H1VUQlnQI04+5HtH+qZCOE21lBE7gIrt+CwX2Wv8Acrw5Ak6w==
   /lodash/4.17.20:
     dev: false
     resolution:
@@ -21,6 +21,6 @@ packages:
     resolution:
       integrity: sha512-X0WEumozKhlYZObL1E+Nmi67f+ZMS+fbpE6vAymlazT2lx0B+Agw9iJsdd//tjAqIzxcsxxgZScx0EIPc42Ulw==
 specifiers:
-  '@types/node': 14.14.28
+  '@types/node': 18.18.6
   lodash: ^4
   pnpm: 5.17.2
