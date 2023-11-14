@@ -1,26 +1,34 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
-  lodash: 4.17.20
+  lodash:
+    specifier: ^4
+    version: 4.17.20
+
 devDependencies:
-  '@types/node': 14.14.28
-  pnpm: 5.17.2
-lockfileVersion: 5.2
+  '@types/node':
+    specifier: 14.14.28
+    version: 14.14.28
+  pnpm:
+    specifier: 8.10.5
+    version: 8.10.5
+
 packages:
-  /@types/node/14.14.28:
+
+  /@types/node@14.14.28:
+    resolution: {integrity: sha512-lg55ArB+ZiHHbBBttLpzD07akz0QPrZgUODNakeC09i62dnrywr9mFErHuaPlB6I7z+sEbK+IYmplahvplCj2g==}
     dev: true
-    resolution:
-      integrity: sha512-lg55ArB+ZiHHbBBttLpzD07akz0QPrZgUODNakeC09i62dnrywr9mFErHuaPlB6I7z+sEbK+IYmplahvplCj2g==
-  /lodash/4.17.20:
+
+  /lodash@4.17.20:
+    resolution: {integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==}
     dev: false
-    resolution:
-      integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
-  /pnpm/5.17.2:
-    dev: true
-    engines:
-      node: '>=10.16'
+
+  /pnpm@8.10.5:
+    resolution: {integrity: sha512-nBYfQz2FVRxY8bOhCxjMPfcrWgLSyu5lZswFtvIK3e+UfnldkMOQM7+S3lUXfq1p2H9iqdqtyR56LjtY9JNToA==}
+    engines: {node: '>=16.14'}
     hasBin: true
-    resolution:
-      integrity: sha512-X0WEumozKhlYZObL1E+Nmi67f+ZMS+fbpE6vAymlazT2lx0B+Agw9iJsdd//tjAqIzxcsxxgZScx0EIPc42Ulw==
-specifiers:
-  '@types/node': 14.14.28
-  lodash: ^4
-  pnpm: 5.17.2
+    dev: true
