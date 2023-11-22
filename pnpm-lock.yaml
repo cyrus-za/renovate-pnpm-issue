@@ -1,14 +1,16 @@
 dependencies:
   lodash: 4.17.20
 devDependencies:
-  '@types/node': 14.14.28
+  '@types/node': 20.9.4
   pnpm: 5.17.2
 lockfileVersion: 5.2
 packages:
-  /@types/node/14.14.28:
+  /@types/node/20.9.4:
+    dependencies:
+      undici-types: 5.26.5
     dev: true
     resolution:
-      integrity: sha512-lg55ArB+ZiHHbBBttLpzD07akz0QPrZgUODNakeC09i62dnrywr9mFErHuaPlB6I7z+sEbK+IYmplahvplCj2g==
+      integrity: sha512-wmyg8HUhcn6ACjsn8oKYjkN/zUzQeNtMy44weTJSM6p4MMzEOuKbA3OjJ267uPCOW7Xex9dyrNTful8XTQYoDA==
   /lodash/4.17.20:
     dev: false
     resolution:
@@ -20,7 +22,11 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-X0WEumozKhlYZObL1E+Nmi67f+ZMS+fbpE6vAymlazT2lx0B+Agw9iJsdd//tjAqIzxcsxxgZScx0EIPc42Ulw==
+  /undici-types/5.26.5:
+    dev: true
+    resolution:
+      integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 specifiers:
-  '@types/node': 14.14.28
+  '@types/node': 20.9.4
   lodash: ^4
   pnpm: 5.17.2
